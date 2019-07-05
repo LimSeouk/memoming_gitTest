@@ -1,0 +1,48 @@
+Coway@Coway-PC MINGW64 /d/git/project (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        studyPython/cheptor4.py
+        studyPython/for.py
+        studyPython/imageConverter/
+        studyPython/ioTest.txt
+        studyPython/ioTest2.txt
+        studyPython/textFile.py
+        studyPython/with.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Coway@Coway-PC MINGW64 /d/git/project (master)
+$ git add .
+
+Coway@Coway-PC MINGW64 /d/git/project (master)
+$ git commit -m "add python project"
+[master 47a3e63] add python project
+ 12 files changed, 124 insertions(+)
+ create mode 100644 studyPython/cheptor4.py
+ create mode 100644 studyPython/for.py
+ create mode 100644 studyPython/imageConverter/Koala.jpg
+ create mode 100644 studyPython/imageConverter/convert.ini
+ create mode 100644 studyPython/imageConverter/convert_Koala.png
+ create mode 100644 studyPython/imageConverter/exam01.py
+ create mode 100644 studyPython/imageConverter/exam02.py
+ create mode 100644 studyPython/imageConverter/exam03.py
+ create mode 100644 studyPython/ioTest.txt
+ create mode 100644 studyPython/ioTest2.txt
+ create mode 100644 studyPython/textFile.py
+ create mode 100644 studyPython/with.py
+
+Coway@Coway-PC MINGW64 /d/git/project (master)
+$ git push origin master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 2.18 MiB | 1.60 MiB/s, done.
+Total 15 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/LimSeouk/memoming_gitTest.git
+   e263083..47a3e63  master -> master
+
