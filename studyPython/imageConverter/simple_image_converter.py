@@ -13,7 +13,7 @@ with open("imageConverter/convert.ini","r") as f :
     fileList = os.listdir(folder)
 
     for fileName in fileList :
-        if(fileName.endswith("."+sourceFormat)) :
+        if fileName.endswith("."+sourceFormat) :
             destFileName = fileName.strip(sourceFormat)+destFormat
             # print(destFileName)
             sourceImage = Image.open(folder+"/"+fileName)
